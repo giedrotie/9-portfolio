@@ -39,7 +39,7 @@
     background-color: lightcyan;
     margin: 10px 0;
   }
-  .container > .row > [class*='col-'] {
+  .con 
     float: left;
     margin-left: var(--half-gap);
     margin-right: var(--half-gap);
@@ -260,7 +260,7 @@
     .container > .row > .ml-md-11 {
       margin-left: var(--ml11);
     }
-  }
+  } 
   
   @media (min-width: 991px) {
     .container > .row > .col-lg-1 {
