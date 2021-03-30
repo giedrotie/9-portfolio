@@ -1,0 +1,14 @@
+Kuriant nauja projekta::exclamation:
+1) npm init -y
+2) npm i -D live-server jest
+3) package.json irasyti script dalyje "dev": "live-server"
+4) npm run dev
+
+Kai norite pasileisti egzistuojanti projekta: :exclamation:
+1) npm i
+2) npm run dev
+
+KAIP IŠVALYTI: :exclamation:
+1) npm cache clean --force
+2) rm -rf node_modules package-lock.json
+3) npm i
