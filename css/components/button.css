@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-blue);
+    color: #fff;
+    border-radius: 6px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  .btn:hover {
+    box-shadow: 0 4px 8px #0003;
+  }
