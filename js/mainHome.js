@@ -2,11 +2,11 @@
 /* header */
 /* hero */
 /* clients */
-import { servicesData } from '.data/servicesData.js';
+import { servicesData } from './data/servicesData.js';
 import { services } from './components/services/services.js';
+
 /* services */
 /* about company */
-/* hire us */
 /* achievements */
 /* promo video */
 /* case studies */
@@ -20,10 +20,9 @@ import { services } from './components/services/services.js';
 /* hero */
 /* clients */
 /* services */
-services(servicesData);
+services('#services_block', servicesData);
 
 /* about company */
-/* hire us */
 /* achievements */
 /* promo video */
 /* case studies */
