@@ -1,0 +1,70 @@
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-blue);
+    color: #fff;
+    border-radius: 6px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  .btn:hover {
+    box-shadow: 0 4px 8px #0003;
+  }
+
+  .btn.white{
+    background-color: #fff;
+    color: var(--color-blue);
+  }
+
+  .btn.creame{
+    background-color: var(--color-creame-dark);
+    color:#fff;
+  }
+  .btn.creame:hover {
+    background-color: var(--color-blue);
+    color:#fff;
+  }
+
+
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--color-blue);
+    color: #fff;
+    border-radius: 6px;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  .btn:hover {
+    box-shadow: 0 4px 8px #0003;
+  }
+  .btn.btn-white{
+    background-color: #fff;
+    color: var(--color-blue);
+  }
+  .btn.btn-creame{
+    background-color: var(--color-creame-dark);
+    color: #fff;
+  }
+  .btn.btn-hover-blue:hover{
+    background-color: var(--color-blue);
+    color: # fff;
+  }
+  .btn.btn-hover-white:hover{
+    background-color: #fff;
+    color: var(--color-blue);
+  }
+  .btn.btn-hover-creame:hover{
+    background-color:var(--color-creame-dark);
+    color: #fff;
+  }
