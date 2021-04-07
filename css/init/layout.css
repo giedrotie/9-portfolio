@@ -40,7 +40,7 @@
 .container-fluid > .row {
   display: inline-block;
   width: 100%;
-  margin: 10px 0;
+  margin: 30px 0;
 }
 .row > [class*='col-'] {
   float: left;
