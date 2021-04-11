@@ -2,9 +2,11 @@
 /* header */
 /* hero */
 /* clients */
+import { servicesData } from './data/servicesData.js';
+import { services } from './components/services/services.js';
+
 /* services */
 /* about company */
-/* hire us */
 /* achievements */
 import { Achievements } from './components/achievements/Achievements'
 import { achievementsData } from './data/achievemementsData.js'
@@ -21,8 +23,9 @@ import { achievementsData } from './data/achievemementsData.js'
 /* hero */
 /* clients */
 /* services */
+services('#services_block', servicesData);
+
 /* about company */
-/* hire us */
 /* achievements */
 const achievement =  new Achievements('#chievements_block', achievementsData);
 achievement.render();
