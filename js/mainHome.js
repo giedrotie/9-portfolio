@@ -33,5 +33,5 @@ const achievement = new Achievements('#achievements_block', achievementsData);
 /* case studies */
 /* testimonials */
 /* blog */
-/* contacts */
+/* contacts */ 
 /* footer */
