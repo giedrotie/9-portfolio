@@ -31,12 +31,12 @@ class Achievements {
             return false;
         }
 
-        const DOM = document.querySelector(this.selector);
+        const DOM = document.querySelector(this.selector); //bando surasti pagal selectoriu niurodyta vieta
         if (!DOM) {
             console.error('ERROR: pagal pateikta selector nepavyko rasti norimos vietos/elemento');
             return false;
         }
-        this.DOM = DOM;
+        this.DOM = DOM; // priskiria globalia info
 
         this.render();
     }
