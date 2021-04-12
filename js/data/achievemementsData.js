@@ -7,17 +7,17 @@ const achievementsData = {
             subtitle: 'Happy clients',
         },
         {
-            title: 'Successfully coml=pleted',
+            title: 'Successfully completed',
             value: 491,
             subtitle: 'Finished projects',
         },
         {
-            title: 'Recruit more than',
+            title: 'Recriut more than',
             value: 245,
             subtitle: 'Skilled experts',
         },
         {
-            title: 'Blog updates',
+            title: 'Blog update',
             value: 1090,
             subtitle: 'Media posts',
         },
