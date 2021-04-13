@@ -8,8 +8,8 @@ import { services } from './components/services/services.js';
 /* services */
 /* about company */
 /* achievements */
-import { Achievements } from './components/achievements/Achievements'
-import { achievementsData } from './data/achievemementsData.js'
+import { Achievements } from './components/achievements/Achievements.js';
+import { achievementsData } from './data/achievementsData.js';
 
 /* promo video */
 /* case studies */
@@ -27,11 +27,11 @@ services('#services_block', servicesData);
 
 /* about company */
 /* achievements */
-const achievement =  new Achievements('#chievements_block', achievementsData);
-achievement.render();
+const achievement = new Achievements('#achievements_block', achievementsData);
+
 /* promo video */
 /* case studies */
 /* testimonials */
 /* blog */
-/* contacts */
+/* contacts */ 
 /* footer */
